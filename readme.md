@@ -52,12 +52,12 @@ php artisan config:cache
 
 ## Other environment variables
 You can add these variables in your ```.env``` file
-| Name                 | Description                             | Default     |
-| -------------------- | --------------------------------------- | -----------:|
-| LDR_DISABLED         | Disable sending messages to Discord.    | ```false``` |
-| LDR_WEBHOOK_URL      | Discord channel webhook URL.            |  ```null``` |
-| LDR_WEBHOOK_USERNAME | Name of the bot in the Discord channel. |  ```null``` |
-| LDR_WEBHOOK_AVATAR   | Image URL for the bot avatar.           |  ```null``` |
+| Name                       | Description                             | Default     |
+| -------------------------- | --------------------------------------- | -----------:|
+| ```LDR_DISABLED ```        | Disable sending messages to Discord.    | ```false``` |
+| ```LDR_WEBHOOK_URL```      | Discord channel webhook URL.            |  ```null``` |
+| ```LDR_WEBHOOK_USERNAME``` | Name of the bot in the Discord channel. |  ```null``` |
+| ```LDR_WEBHOOK_AVATAR```   | Image URL for the bot avatar.           |  ```null``` |
 
 #### - Example in your ```.env``` file:
 ```sh
