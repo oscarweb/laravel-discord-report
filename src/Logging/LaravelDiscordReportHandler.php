@@ -70,7 +70,14 @@ class LaravelDiscordReportHandler extends AbstractProcessingHandler{
         }        
     }
 
-    static public function excerpt($text, $limit = 130){
+    /**
+     * Limits the length of a string
+     * -
+     * @param string $text
+     * @param int    $limit
+     * @return string
+     */
+    static public function excerpt($text = '', $limit = 130){
         if(strlen($text) > $limit){
             return substr($text, 0, $limit).'...';
         }
