@@ -25,7 +25,10 @@ LDR_WEBHOOK_URL="https://discord.com/api/webhooks/.../..."
 ```
 
 ### - Add Channel
-You must add the new channel to your configuration file.
+You must add the new channel to your configuration file: 
+
+```laravel_discord_report```
+
 ```php
 # /config/logging.php
 
