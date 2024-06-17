@@ -5,7 +5,7 @@ It is a package to send errors that are logged in the Laravel application direct
 ### - Install vía [Composer](https://packagist.org/packages/oscarweb/laravel-discord-report "Composer")
 Just add this line to your `composer.json` file:
 ```json
-"oscarweb/laravel-discord-report": "0.1.0"
+"oscarweb/laravel-discord-report": "0.1.1"
 ```
 or run
 
