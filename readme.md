@@ -27,7 +27,7 @@ LDR_WEBHOOK_URL="https://discord.com/api/webhooks/.../..."
 ### - Add Channel
 You must add the new channel to your configuration file.
 ```php
-# /config/loggin.php
+# /config/logging.php
 
 return [
     /** ... */
