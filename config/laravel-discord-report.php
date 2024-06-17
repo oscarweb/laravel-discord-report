@@ -6,7 +6,7 @@
     */
 return [
     /** Deshabilitar reportes de error, default: false */
-    'disabled' => false,
+    'disabled' => env('LDR_DISABLED', false),
 
     /** WebHook Discord Channel */
     'webhook' => [
@@ -34,6 +34,7 @@ return [
         /** Se enviará por defecto con formato de código entre: ``` */
         'code' => true,
     ],
+    
     /** Iconos enviados en el mensaje de error */
     'icons' => [
         'url'     => '🌏',
