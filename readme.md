@@ -65,3 +65,8 @@ LDR_WEBHOOK_URL="https://discord.com/api/webhooks/.../..."
 LDR_WEBHOOK_USERNAME="Test API Report"
 LDR_WEBHOOK_AVATAR="https://i.imgur.com/oBPXx0D.png"
 ```
+
+Save config:
+```sh
+php artisan config:cache
+```
