@@ -19,7 +19,7 @@ php artisan vendor:publish --provider "LaravelDiscordReport\ServiceProvider"
 ```
 
 ### - Add a Webhook
-In your .env file I added the environment variable.
+In your .env file you need to add the environment variable.
 ```
 LDR_WEBHOOK_URL="https://discord.com/api/webhooks/.../..."
 ```
@@ -41,6 +41,11 @@ return [
             'ignore_exceptions' => false,
         ],
 ```
-### - Message in Discord
+
+### - Save Config
+```sh
+php artisan config:cache
+```
+### - Testing
 
 ![Example Command](https://oscarweb.com.ar/github/laravel-discord-report/screenshot_laravel_discord_report.png "Example Command")
