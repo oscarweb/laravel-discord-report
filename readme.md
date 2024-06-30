@@ -3,14 +3,17 @@
 It is a package to send errors that are logged in the Laravel application directly to a Discord channel.
 
 ### - Install vía [Composer](https://packagist.org/packages/oscarweb/laravel-discord-report "Composer")
-Just add this line to your `composer.json` file:
-```json
-"oscarweb/laravel-discord-report": "^0.2.3"
-```
-or run
-
 ```sh
 composer require oscarweb/laravel-discord-report
+```
+
+#### Or you can add this line to your `composer.json` file:
+```json
+"oscarweb/laravel-discord-report": "^0.2.4"
+```
+and run 
+```sh
+composer update
 ```
 
 ### - Publish the service provider
