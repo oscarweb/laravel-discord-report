@@ -13,13 +13,11 @@ class LaravelDiscordReport{
      * @return \Monolog\Logger
      */
     public function __invoke(array $config){
-        /** Si está deshabilitado */
-        if(config('laravel-discord-report.disabled')){
+        /** Si no está deshabilitado */
+        if(!config('laravel-discord-report.disabled')){
+            $logger = new Logger('LaravelDiscordReport');
+            $logger->pushHandler(new LaravelDiscordReportHandler(Logger::ERROR));
             return $logger;
         }
-
-        $logger = new Logger('LaravelDiscordReport');
-        $logger->pushHandler(new LaravelDiscordReportHandler(Logger::ERROR));
-        return $logger;
     }
 }
