@@ -1,29 +1,37 @@
 {
-    "name": "oscarweb/laravel-discord-report",
-    "description": "Discord Report - Log Error.",
-    "keywords": ["laravel","discord","report", "log", "logging","handler","error"],
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "LaravelDiscordReport\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Oscar S.C.",
-            "email": "php@oscarweb.ar"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">= 7.3 || ^8.0",
-        "illuminate/support": "^8.0|^9.0|^10.0"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "LaravelDiscordReport\\ServiceProvider"
-            ]
-        }
+  "name": "oscarweb/laravel-discord-report",
+  "description": "Discord Report - Log Error.",
+  "keywords": [
+    "laravel",
+    "discord",
+    "report",
+    "log",
+    "logging",
+    "handler",
+    "error"
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "LaravelDiscordReport\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "Oscar S.C.",
+      "email": "php@oscarweb.ar"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.3 || >=8.0",
+    "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelDiscordReport\\ServiceProvider"
+      ]
+    }
+  }
 }
